@@ -14,3 +14,7 @@ https://issuu.com/us2020rtp/docs/svd_combined_4
 
 ## basic tutorials
 - to get ur feet wet: https://studio.code.org/s/starwars/
+
+## interview resources
+- https://www.interviewcake.com
+- https://www.pramp.com/
