@@ -30,10 +30,11 @@
 ## Part 2: The Content Management System
 - Intro to WordPress
 
-## Part 3: Front-End Build Tools
+## Part 3: Front-End Build Tools and Advanced CSS
 - Intro to Node.js
 - CSS Preprocessors
 	1. SASS
+- CSS Animations: https://www.youtube.com/watch?v=jgw82b5Y2MU&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5
 - Front-end Build Tools and Workflows
 
 
