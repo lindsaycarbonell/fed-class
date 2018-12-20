@@ -1,5 +1,5 @@
 # fed-class
-Teaching Front-End Web Development (to my boyfriend) (and two other people) (get on the FED train 🚂)
+Teaching Front-End Web Development (to my boyfriend) (and many others) (get on the FED train 🚂)
 
 ## field trip/project ideas
 - http://codefordurham.com
