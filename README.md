@@ -20,48 +20,48 @@ If you have a Windows computer, install cmder: http://cmder.net/
 Install Visual Studio Code: https://code.visualstudio.com/
 
 ### Jan 2.
-*Your first webpage.*
+**Your first webpage.**
 
-/Introduction, command line, file naming standards./
+_Introduction, command line, file naming standards._
 
 ### Jan 7.
-*HTML Part 1: Structure and Colors*
-/Tags, attributes, semantic elements, rgbrgbahexadecimal colors/
+**HTML Part 1: Structure and Colors**
+_Tags, attributes, semantic elements, rgbrgbahexadecimal colors_
 
 ### Jan 9.
-*HTML Part 2:  Complex Structures and Accessibility*
+**HTML Part 2:  Complex Structures and Accessibility**
 
-/Tables, forms, accessibility standards./
+_Tables, forms, accessibility standards._
 
 ### Jan 14.
-*CSS Part 1: The Basics*
+**CSS Part 1: The Basics**
 
-/Selectors, properties, declarations, etc./
+_Selectors, properties, declarations, etc._
 
 ### Jan 16.
-*CSS Part 2: The Cascade*
+**CSS Part 2: The Cascade**
 
-/Inheritance, specificity, cascade rules./
+_Inheritance, specificity, cascade rules._
 
 ### Jan 21.
-*CSS Part 3: The Box Model and the browser inspector.*
+**CSS Part 3: The Box Model and the browser inspector.**
 
-/We’re going to do the most complex, frustrating thing you’ll ever do in CSS: move and resize boxes./
+_We’re going to do the most complex, frustrating thing you’ll ever do in CSS: move and resize boxes._
 
 ### Jan 23.
-*Responsive design.*
+**Responsive design.**
 
-/How do you make a webpage work on all screen sizes? We’ll go through basic standards for responsive websites, and why browser compatibility is such a THING./
+_How do you make a webpage work on all screen sizes? We’ll go through basic standards for responsive websites, and why browser compatibility is such a THING._
 
 ### Jan 28.
-*Fancy box models: A Quick Introduction to Flexbox*
+**Fancy box models: A Quick Introduction to Flexbox**
 
-/How flexbox works and how you can get started with it./
+_How flexbox works and how you can get started with it._
 
 ### Jan 30.
-*How real FEDs do it: design to web page.*
+**How real FEDs do it: design to web page.**
 
-/We’ll take the class period to build a real webpage from a real mock-up! Wow!/
+_We’ll take the class period to build a real webpage from a real mock-up! Wow!_
 
 
 _(First week of Feb. will be more design to web page classes, project for Part 1 will be due second week of Feb.)_
@@ -71,5 +71,3 @@ _(First week of Feb. will be more design to web page classes, project for Part 1
 ## Part 3: Wordpress and PHP
 
 ## Part 4: Front-End Build Tools and Workflows
-
-#fedev101
