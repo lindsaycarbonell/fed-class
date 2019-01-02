@@ -15,9 +15,9 @@ This course is structured to be as hands-on as possible, and every lesson will h
 ## Part 1: HTML/CSS
 
 ### Day 1 prerequisites:
-Install git: https://git-scm.com/downloads
-If you have a Windows computer, install cmder: http://cmder.net/
-Install Visual Studio Code: https://code.visualstudio.com/
+* Install git: https://git-scm.com/downloads
+* If you have a Windows computer, install cmder: http://cmder.net/
+* Install Visual Studio Code: https://code.visualstudio.com/
 
 ### Jan 2.
 **Your first webpage.**
