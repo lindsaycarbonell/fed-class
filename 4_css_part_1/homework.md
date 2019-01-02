@@ -1,3 +1,8 @@
+# Homework
+
+## Readings
+- [CSS Box Model](https://internetingishard.com/html-and-css/css-box-model/)
+
 # Which ruleset will win?
 _taken from: [Sarah Hudson's SlideShare](https://www.slideshare.net/shudson4/charlotte-fed-css-inheritance-and-specificity)_
 
