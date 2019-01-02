@@ -22,46 +22,47 @@ Install Visual Studio Code: https://code.visualstudio.com/
 ### Jan 2.
 **Your first webpage.**
 
-_Introduction, command line, file naming standards._
+Introduction, command line, file naming standards.
 
 ### Jan 7.
 **HTML Part 1: Structure and Colors**
-_Tags, attributes, semantic elements, rgbrgbahexadecimal colors_
+
+Tags, attributes, semantic elements, rgbrgbahexadecimal colors
 
 ### Jan 9.
 **HTML Part 2:  Complex Structures and Accessibility**
 
-_Tables, forms, accessibility standards._
+Tables, forms, accessibility standards.
 
 ### Jan 14.
 **CSS Part 1: The Basics**
 
-_Selectors, properties, declarations, etc._
+Selectors, properties, declarations, etc.
 
 ### Jan 16.
 **CSS Part 2: The Cascade**
 
-_Inheritance, specificity, cascade rules._
+Inheritance, specificity, cascade rules.
 
 ### Jan 21.
 **CSS Part 3: The Box Model and the browser inspector.**
 
-_We’re going to do the most complex, frustrating thing you’ll ever do in CSS: move and resize boxes._
+We’re going to do the most complex, frustrating thing you’ll ever do in CSS: move and resize boxes.
 
 ### Jan 23.
 **Responsive design.**
 
-_How do you make a webpage work on all screen sizes? We’ll go through basic standards for responsive websites, and why browser compatibility is such a THING._
+How to make a webpage work on all screensizes, browser compatibility.
 
 ### Jan 28.
 **Fancy box models: A Quick Introduction to Flexbox**
 
-_How flexbox works and how you can get started with it._
+How flexbox works and how you can get started with it.
 
 ### Jan 30.
 **How real FEDs do it: design to web page.**
 
-_We’ll take the class period to build a real webpage from a real mock-up! Wow!_
+We’ll take the class period to build a real webpage from a real mock-up! Wow!
 
 
 _(First week of Feb. will be more design to web page classes, project for Part 1 will be due second week of Feb.)_
