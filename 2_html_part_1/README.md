@@ -1,3 +1,5 @@
+(work in progress)
+
 # HTML Part 1: Structure and Colors
 ## Meta
 _To read these notes_:
