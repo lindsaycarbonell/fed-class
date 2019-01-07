@@ -18,6 +18,7 @@ This course is structured to be as hands-on as possible, and every lesson will h
 * Install git: https://git-scm.com/downloads
 * If you have a Windows computer, install cmder: http://cmder.net/
 * Install Visual Studio Code: https://code.visualstudio.com/
+* Install GitKraken: https://www.gitkraken.com/
 
 ### Jan 2.
 **Your first webpage.**
