@@ -1,7 +1,7 @@
 # Your First Webpage
 _TO READ THESE NOTES_:
 * **option 1**: open the class folder and this file in Visual Studio Code. Open the Command Palette (cmd+shift+P or View->Command Palette). Search for and select "Markdown: Open Preview to the Side".
-* **option 2**: Go to https://github.com/lindsaycarbonell/fed101 and navigate to the lesson folder.
+* **option 2**: Go to https://github.com/lindsaycarbonell/fed-class and navigate to the lesson folder.
 
 ## The command line and setting up our class folder
 * Open terminal if you're on a Mac, or cmder if you're on a PC. Type the following in the **command line** and press enter:
