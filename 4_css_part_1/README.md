@@ -2,6 +2,7 @@
 _notes adapted from_: 
 - [MDN's CSS Property Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
 - [MDN's CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [CSS Combinators](https://www.w3schools.com/css/css_combinators.asp)
 
 ## CSS: Cascading StyleSheets
 - Cascading: Styles are assigned from the top down
@@ -71,13 +72,14 @@ h1 {
 ![declaration block syntax](img/decl-block.png)
 
 ### Common properties
-- Different selectors can have different properties. For example, while an `h1` and a `p` can have a color, they cannot have a `list-style`, which is a property exclusive to list elements.
+- Different HTML elements can have different properties. For example, while an `h1` and a `p` can have a color, they cannot have a `list-style`, which is a property exclusive to list elements.
 - Common properties include:
   - background
   - border
   - color
   - display
-  - font
+  - font-size
+  - font-family
   - height
   - margin
   - padding
@@ -94,18 +96,104 @@ h1 {
 - Some properties have shorthand options. Let's take a look at `border`.
 
 ## Selectors
+Selectors are the patterns we use to reference HTML elements that we want to style.
+
+### Elements
+An element selector is the most simple. We do not need to add anything to our HTML element to write CSS using element selectors. So for this HTML: 
+
+```
+<hr />
+```
+
+All we need is this CSS to change the width of the horizontal rule to 200px: 
+
+```
+hr {
+    width: 200px;
+}
+```
+
 ### Classes
+A class selector selects all elements with the class attribute and is denoted with a `.`. So for example, for this HTML: 
+```
+<p class="blue">Blue.</p>
+<h1 class="blue">Blue.</h1>
+```
+We would use this CSS declaration block to make the font color of the `<p>` and `<h1>` blue: 
+```
+.blue {
+    color: blue;
+}
+```
+
 ### IDs
-### Pseudoclasses
+An ID selector selects only one element with that id selector and is denoted by a `#`. While it is convention to only apply the same id to _one_ element on the page, many browsers will accept multiple ids because it is a common enough bug that developers produce.
+Regardless, it is _required_ in W3 documentation that you do not duplicate IDs. Later on when we get to JavaScript (and even earlier, using anchor links), having duplicate IDs will break your code.
+
+Example:
+```
+<div id="container"></div>
+```
+```
+#container {
+    max-width: 1170px;
+}
+```
+
+### Pseudo-classes
+Pseudo-classes define special states of elements. The pseudo-classes that you will run into most often are: 
+- *:hover*: styles an element when a user mouses over it
+- *:focus*: styles an element when it gets focus (usually meaning a user has tabbed to it)
+- *:visited* and *:unvisited*: styles visited and unvisited links differently
+
+Hover and focus pseudo-classes are often combined because the visual styles are usually the same. So for instance, if you tab to or hover over a link, it may become underlined and change color. For this HTML:
+
+```
+<a class="menu-link">Home</a>
+```
+
+The CSS would look like this: 
+
+```
+.menu-link:hover, 
+.menu-link:active {
+    color: green;
+    text-decoration: underline;
+}
+```
+
+#### Child Pseudo-classes
+There is a special category of pseudo-class that allows you to target particular children of a parent element. So, for example, with this HTML: 
+
+```
+<ul>
+    <li>One Fish</li>
+    <li>Two Fish</li>
+    <li>Red Fish</li>
+    <li>Blue Fish</li>
+</ul>
+```
+
+We can use CSS to target any of the child `<li>` elements without having to add any selectors to those children. Take a look: 
+
+```
+li:nth-child(1) { //this selects "One Fish"
+    color: red;
+}
+li:first-child
+```
+
 ### Pseudoelements
 
-### Units
-### Fonts
-#### Font size units
-#### Getting fonts from a file
-### Images
+### CSS Combinators
+We can combine CSS selectors when we are referencing multiple selectors that use the same styles. We saw some of those examples above in the selectors section. Here are all of the possible combinators: 
 
+- descendant selector (a space)
+- child selector  (>)
+- adjacent sibling selector (+)
+- general sibling selector (~)
 
+Let's go through some examples (in class).
 
 ## Vocabulary
 - Inline CSS

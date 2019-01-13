@@ -9,6 +9,8 @@ _notes adapted from_:
 
 ## Inheritance
 
+=== TO BE UPDATED ===
+
 ## The cascade: How Browsers Decide Which CSS to Apply
 The cascade is defined by these three things, in order of weight (1 outweighs 3):
 1) Importance
@@ -66,3 +68,10 @@ Because the second h1 definition comes after the first, the h1 color property wi
 }
 ```
 - We'll learn about what this means in the next section.
+
+
+### Units
+### Fonts
+#### Font size units
+#### Getting fonts from a file
+### Images

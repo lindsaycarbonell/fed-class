@@ -4,15 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lesson 4: CSS Part 1</title>
+    <title>CSS Part 1: The Basics</title>
     <link rel="stylesheet" href="style.css" /> <!-- you don't need the / in this tag, I just like to have it -->
+
+    <style>
+        /* body h1:nth-child(2) {
+            color: green;
+        } */
+        /* #hello + h1 {
+            color: purple;
+        } */
+        /* .container div:nth-child(2) h1:last-child {
+            color: purple;
+        } */
+
+        .purple {
+            color: purple;
+            border: 2px ridge brown;
+            display: inline-block;
+            padding: 20px;
+        }
+
+        .box {
+            width: 25px;
+            height: 25px;
+            /* green border on left and right weight 3px*/
+            border-left: 3px solid green;
+            border-right: 3px solid green;
+            background-color: lightgreen;
+        }
+
+    </style>
+
 </head>
 <body>
     <div class="container">
-        <div class="block"></div>
-        <div class="block"></div>
-        <div class="block"></div>
+        <div class="box"></div>
 
+        <div class="purple">
+            <h1>Hello</h1>
+            <h1>Goodbye</h1>
+        </div>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <ul>
+            <div>
+                <li>One Fish</li>
+                <li>Two Fish</li>
+                <li>Red Fish</li>
+                <li>Blue Fish</li>
+            </div>
+        </ul>
     </div>
+    
+
 </body>
 </html>
